@@ -107,3 +107,27 @@ p {
   right: calc(var(--border-size) * -4);
   bottom: calc(var(--border-size) * -4);
 }
+
+.btn-2:hover {
+  transform: scale(1.1);
+}
+
+/*Styling for btn-3*/
+.btn-3 {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-family: arial, sans-serif;
+  font-size: 18px;
+  background: aqua;
+}
+
+.btn-3:hover {
+  box-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 30px aqua;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.btn-3:active {
+  background-color: white;
+}
